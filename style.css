@@ -1,0 +1,49 @@
+html {
+  font-family: Montserrat, Fraunces;
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.product-image {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+}
+
+h2, .product-description, .original-price {
+  color: hsl(228, 12%, 48%);
+}
+
+.add-to-cart-button {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  width: 100%;
+}
+
+.attribution { 
+  font-size: 11px; text-align: center;
+  display: block;
+}
+
+.attribution a { 
+  color: hsl(158, 36%, 37%); 
+}
